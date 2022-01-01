@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: "okteto.dev/oktetotest1999:latest"
+          image: "okteto.dev/jaskon1391/oktetotest1999"
           ports:
             - name: http
               containerPort: 80
