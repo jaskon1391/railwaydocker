@@ -1,3 +1,3 @@
 deploy:
-  - okteto build -t jaskon1391/oktetotest1999:latest
+  - okteto build -t jaskon1391/oktetotest1999
   - kubectl apply -f k8s.yaml
